@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="495.0" prefWidth="804.0" stylesheets="@./css/gadgetBox.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ViewController">
+    <children>
+        <ChoiceBox fx:id="gadgetBox" layoutX="123.0" layoutY="23.0" minWidth="100.0" prefHeight="30.0" prefWidth="100.0" />
+      <Button fx:id="exploitButton" layoutX="384.0" layoutY="297.0" mnemonicParsing="false" onMouseClicked="#exploit" text="exploit" />
+      <ChoiceBox fx:id="encodeBox" layoutX="324.0" layoutY="23.0" prefHeight="30.0" prefWidth="110.0" />
+      <ChoiceBox fx:id="memShellBox" layoutX="570.0" layoutY="23.0" prefWidth="150.0" />
+      <TextArea fx:id="showContentArea" editable="false" layoutX="41.0" layoutY="73.0" prefHeight="205.0" prefWidth="374.0" />
+      <TextArea fx:id="showExpArea" editable="false" layoutX="128.0" layoutY="339.0" prefColumnCount="100" prefHeight="126.0" prefWidth="585.0" wrapText="true" />
+      <TextArea fx:id="showMemShellContentArea" editable="false" layoutX="440.0" layoutY="80.0" prefHeight="160.0" prefWidth="336.0" />
+      <Label fx:id="gadgetLabel" layoutX="66.0" layoutY="28.0" prefHeight="20.0" prefWidth="47.0" text="gadget" />
+      <Label fx:id="encodeLabel" layoutX="264.0" layoutY="28.0" text="encode" />
+      <Label fx:id="memShellLabel" layoutX="498.0" layoutY="28.0" text="memShell" />
+    </children>
+</AnchorPane>
