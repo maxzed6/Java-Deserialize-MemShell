@@ -1,6 +1,6 @@
 # Java-Deserialize-MemShell
 
-Java反序列化注入内存马payload生成工具 [![image](https://github.com/maxzed6/Java-Deserialize-MemShell/raw/main/jpg.png)](https://github.com/maxzed6/Java-Deserialize-MemShell/blob/main/jpg.png)
+Java反序列化注入内存马payload生成工具
 
 ## 声明：
 
